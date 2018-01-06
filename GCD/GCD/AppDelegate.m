@@ -17,6 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    dispatch_queue_t queue = dispatch_queue_create("com.demo.serialQueue", DISPATCH_QUEUE_SERIAL);
+//    NSLog(@"1"); // 任务1
+//    dispatch_async(queue, ^{
+//        NSLog(@"2"); // 任务2
+//        dispatch_sync(queue, ^{
+//            NSLog(@"3"); // 任务3
+//        });
+//        NSLog(@"4"); // 任务4
+//    });
+//    NSLog(@"5"); // 任务5
     return YES;
 }
 

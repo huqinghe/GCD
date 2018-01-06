@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC2E842E20011B7F0096B796 /* TestGCDAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2E842D20011B7F0096B796 /* TestGCDAPIViewController.m */; };
+		FC41B8E520008460001E1BD7 /* TestGCDAPIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC41B8E320008460001E1BD7 /* TestGCDAPIViewController.xib */; };
 		FCE0362E1FFF36B00020751F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0362D1FFF36B00020751F /* AppDelegate.m */; };
 		FCE036311FFF36B00020751F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE036301FFF36B00020751F /* ViewController.m */; };
 		FCE036341FFF36B00020751F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE036321FFF36B00020751F /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC2E842C20011B7F0096B796 /* TestGCDAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGCDAPIViewController.h; sourceTree = "<group>"; };
+		FC2E842D20011B7F0096B796 /* TestGCDAPIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGCDAPIViewController.m; sourceTree = "<group>"; };
+		FC41B8E320008460001E1BD7 /* TestGCDAPIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestGCDAPIViewController.xib; sourceTree = "<group>"; };
 		FCE036291FFF36B00020751F /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE0362C1FFF36B00020751F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCE0362D1FFF36B00020751F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		FCE0364C1FFF36B10020751F /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE036501FFF36B10020751F /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		FCE036521FFF36B10020751F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE0365E1FFF38120020751F /* Attention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Attention.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				FCE036371FFF36B00020751F /* LaunchScreen.storyboard */,
 				FCE0363A1FFF36B00020751F /* Info.plist */,
 				FCE0363B1FFF36B00020751F /* main.m */,
+				FCE0365E1FFF38120020751F /* Attention.h */,
+				FC2E842C20011B7F0096B796 /* TestGCDAPIViewController.h */,
+				FC2E842D20011B7F0096B796 /* TestGCDAPIViewController.m */,
+				FC41B8E320008460001E1BD7 /* TestGCDAPIViewController.xib */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -238,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC41B8E520008460001E1BD7 /* TestGCDAPIViewController.xib in Resources */,
 				FCE036391FFF36B00020751F /* LaunchScreen.storyboard in Resources */,
 				FCE036361FFF36B00020751F /* Assets.xcassets in Resources */,
 				FCE036341FFF36B00020751F /* Main.storyboard in Resources */,
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2E842E20011B7F0096B796 /* TestGCDAPIViewController.m in Sources */,
 				FCE036311FFF36B00020751F /* ViewController.m in Sources */,
 				FCE0363C1FFF36B00020751F /* main.m in Sources */,
 				FCE0362E1FFF36B00020751F /* AppDelegate.m in Sources */,
